@@ -1,17 +1,21 @@
 # Docker Demo Application
+Original Author:  Evan Hazlett (https://github.com/ehazlett/docker-demo)
+
 This is a Go demo application used for demonstrating Docker.
 
 # Demo
-The `demo` directory contains the demo application.
+The `demo_pq` directory contains the demo application.
 
-## Environment Variables
+## Requirements
 
-* `TITLE`: sets title in demo app
+- Install Docker (https://docs.docker.com/installation/)
+
+- Install Docker Compose (https://docs.docker.com/compose/)
 
 ## Build
 
-`docker build -t docker-demo .`
+- `docker-compose build`
 
 ## Run
 
-`docker run -P --rm docker-demo`
+- `docker-compose up`
