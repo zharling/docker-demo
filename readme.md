@@ -1,4 +1,4 @@
-### Docker Demo Application
+#### Docker Demo Application
 Original Author:  Evan Hazlett (https://github.com/ehazlett/docker-demo)
 
 This is a Go demo application with a PostgreSQL database used for demonstrating Docker and Docker Compose
